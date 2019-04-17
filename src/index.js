@@ -19,4 +19,4 @@ if (typeof window !== 'undefined') {
     window.renderNewsfeederButton = generate;
 }
 
-export default generate;
+module.exports = generate;

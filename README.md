@@ -5,7 +5,7 @@ Newsfeeder button, link your rss or atom feed with newsfeeder.
 ## Install
 
 ```bash
-npm i -D open-with-newsfeeder-btn
+npm i -S open-with-newsfeeder-btn
 ```
 
 ## Usage

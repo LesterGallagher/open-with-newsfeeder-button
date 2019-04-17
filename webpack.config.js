@@ -1,5 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
+const autoprefixer = require('autoprefixer');
+const precss = require('precss');
+const cssnano = require('cssnano');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -53,6 +56,15 @@ module.exports = {
 					},
 					{
 						loader: 'css-loader'
+					},
+					{
+						loader: 'postcss-loader',
+
+						options: {
+							plugins: function () {
+								return [precss, autoprefixer, cssnano];
+							}
+						}
 					}
 				]
 			},
@@ -65,6 +77,8 @@ module.exports = {
 			}
 		]
 	},
+
+	devtool: 'source-map',
 
 	output: {
 		filename: 'open-with-newsfeeder-btn.min.js'
