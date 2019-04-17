@@ -1,0 +1,51 @@
+.open-with-newsfeeder-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    background: 0 0;
+    line-height: normal;
+    font-family: -apple-system,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: auto;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    border: 0 solid;
+    border-radius: 3px;
+    transition: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    font-family: Roboto,Noto,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    min-height: 36px;
+    line-height: 36px;
+    padding: 0 16px 0 0;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    text-transform: uppercase;
+    background-color: #f5593d;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color .25s linear;
+    opacity: 1;
+    transition: all .25s linear;
+}
+.open-with-newsfeeder-button img {
+    vertical-align: top;
+}
