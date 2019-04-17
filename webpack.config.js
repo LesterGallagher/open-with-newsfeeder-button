@@ -81,6 +81,9 @@ module.exports = {
 	devtool: 'source-map',
 
 	output: {
-		filename: 'open-with-newsfeeder-btn.min.js'
+		path: path.resolve(__dirname, 'dist'),
+		filename: 'open-with-newsfeeder-btn.min.js',
+		library: 'open-with-newsfeeder-btn',
+		libraryTarget: 'umd'
 	},
 };

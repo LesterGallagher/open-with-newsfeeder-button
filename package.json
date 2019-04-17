@@ -1,6 +1,6 @@
 {
   "name": "open-with-newsfeeder-btn",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Newsfeeder button, link your rss or atom feed with newsfeeder.",
   "main": "index.js",
   "scripts": {

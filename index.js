@@ -1,2 +1,2 @@
-require('./dist/open-with-newsfeeder-btn.min.js');
-module.exports = window.renderNewsfeederButton;
+import renderNewsfeederButton from './dist/open-with-newsfeeder-btn.min';
+export default renderNewsfeederButton;
