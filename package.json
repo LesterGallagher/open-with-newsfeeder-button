@@ -1,8 +1,8 @@
 {
   "name": "open-with-newsfeeder-btn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Newsfeeder button, link your rss or atom feed with newsfeeder.",
-  "main": "index.js",
+  "main": "dist/open-with-newsfeeder-btn.min.js",
   "scripts": {
     "start": "webpack -w --mode=development",
     "build": "webpack --mode=production",
@@ -25,5 +25,14 @@
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0"
+  },
+  "homepage": "https://github.com/LesterGallagher/open-with-newsfeeder-button",
+  "bugs": {
+    "url": "https://github.com/LesterGallagher/open-with-newsfeeder-button/issues",
+    "email": "open-with-newsfeeder-btn@esstudio.site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LesterGallagher/open-with-newsfeeder-button"
   }
 }
